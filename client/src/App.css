@@ -1,0 +1,84 @@
+/* 
+Light #ffb81c 
+Median #af8425
+Dark #033a13
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffb81c;
+}
+
+input checkbox {
+  width: 50px;
+}
+
+header {
+  position: relative;
+  top: -10px;
+  background-color: #af8425;
+  color: #033a13;
+  width: 100%;
+  text-align: center;
+  padding: 7px;
+  font-weight: 700;
+}
+
+sections {
+  text-align: center;
+}
+
+section {
+  width: 90%;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #033a13;
+}
+
+.absent {
+  width: 95%;
+  padding: 5px;
+  margin-top: 3px;
+  border-radius: 4px;
+  background-color: #af8425;
+  color: #033a13;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.attending {
+  width: 95%;
+  padding: 5px;
+  margin-top: 3px;
+  border-radius: 4px;
+  background-color: #033a13;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+link {
+  color: #ffb81c;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: #af8425;
+  color: #033a13;
+  width: 100%;
+  text-align: center;
+  padding: 7px;
+}
+
+#backBttn {
+  width: 25px;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+
+.dtlBttn {
+  width: 25px;
+}
